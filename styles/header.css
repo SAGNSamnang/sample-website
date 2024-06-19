@@ -1,0 +1,41 @@
+.logo-container {
+  background-color: rgb(239, 239, 239);
+  display: none;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+}
+.logo a {
+  display: block;
+}
+.logo a img {
+  height: 70px;
+}
+.logo .text-title {
+  width: 70%;
+}
+.logo .text-title h2 {
+  font-size: 30px;
+}
+/* add queries media  */
+@media (min-width: 576px) {
+  
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+  .logo-container {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 1400px) {
+  
+}
+
